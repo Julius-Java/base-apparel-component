@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Base Apparel Coming Soon Page</title>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -12,20 +13,20 @@
 
 
       <div class="inner-div">
-        <img class="logo" src="./images/logo.svg" alt="">
+        <img class="logo" src="./images/logo.svg" alt="Base Apparel">
 
         <img src="./images/hero-mobile.jpg" class="image-mobile" alt="">
 
-        <h1><span class="big-text">WE'RE</span><br> COMING <br> SOON</h1>
+        <h1><span class="big-text">we're</span> coming soon</h1>
         <p class="info-text">Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our launch deals.
         </p>
 
         <form action="" id="form">
-          <input type="email" placeholder="Email Address">
-          <img class="email-error-icon" src="./images/icon-error.svg" alt="">
-          <button class="btn"><img src="./images/icon-arrow.svg" alt=""></button>
-          <small class="error-message">Please provide a valid email</small>
+          <input type="email" placeholder="Email Address" aria-label="email input" aria-required="true" aria-describedby="invalid-email-error">
+          <img class="email-error-icon" src="./images/icon-error.svg" alt="error-icon">
+          <button type="submit" class="btn"><img src="./images/icon-arrow.svg" alt="submit button icon" aria-label="submit button icon"></button>
+          <small id="invalid-email-error" aria-live="polite" class="error-message"></small>
         </form>
       </div>
     </section>
@@ -33,6 +34,6 @@
     </section>
   </main>
 
-  <script type="text/javascript" src="./index.js"></script>
+  <script src="./index.js"></script>
 </body>
 </html>

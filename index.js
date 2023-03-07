@@ -1,5 +1,6 @@
 const form = document.getElementById("form")
 const input = document.querySelector("form input");
+const errorMessage = document.querySelector(".error-message")
 
 
 function isValidEmail(email) {
@@ -17,9 +18,10 @@ form.addEventListener("submit", e => {
 
     if (!isValidEmail(email)) {
         form.classList.add("error")
+        errorMessage.innerHTML = "Please provide a valid email"
         setTimeout(() => {
             form.classList.remove("error")
-        }, 3000)
+        }, 4000)
     } else {
         form.classList.remove("error")
     }
