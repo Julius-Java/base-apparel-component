@@ -220,11 +220,17 @@ form.error .error-message, form.error .email-error-icon {
 
     form button {
         padding: 1.1rem 2.2rem;
+        right: -1px;
+        top: -1px;
     }
 
     .email-error-icon {
         right: 7rem;
         transform: translateY(65%);
+    }
+
+    .info-text {
+        margin-bottom: 3rem;
     }
 }
 
@@ -240,17 +246,13 @@ form.error .error-message, form.error .email-error-icon {
     }
 
     form button {
-        padding: 1rem 1.5rem;
+        padding: 1rem 1.8rem;
     }
 
     .email-error-icon {
         right: 5rem;
         width: 20px;
         transform: translateY(68%);
-    }
-
-    .info-text {
-        margin-bottom: 4rem;
     }
 }
 
