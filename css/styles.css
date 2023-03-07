@@ -115,7 +115,7 @@ form button {
     right: 0;
     cursor: pointer;
     transition: all .5s ease-in-out;
-    box-shadow: 0 10px 10px  rgba(255, 192, 203, 0.8);
+    box-shadow: 0 5px 5px  rgba(255, 192, 203, 0.8);
 }
 
 form button:hover {
@@ -196,7 +196,7 @@ form.error .error-message, form.error .email-error-icon {
         width: calc(100% + 16px);
         margin-left: -8px;
         margin-right: -8px;
-        margin-bottom: var(--bottom-spacing);
+        margin-bottom: 3rem;
     }
 
     .inner-div {
@@ -219,7 +219,7 @@ form.error .error-message, form.error .email-error-icon {
     }
 
     form button {
-        padding: 1.1rem 2.5rem;
+        padding: 1.1rem 2.2rem;
     }
 
     .email-error-icon {
@@ -240,7 +240,7 @@ form.error .error-message, form.error .email-error-icon {
     }
 
     form button {
-        padding: 1rem 2rem;
+        padding: 1rem 1.5rem;
     }
 
     .email-error-icon {
@@ -250,7 +250,7 @@ form.error .error-message, form.error .email-error-icon {
     }
 
     .info-text {
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
 }
 
