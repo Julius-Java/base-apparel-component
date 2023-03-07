@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Front-end Mentor](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [Front-end Mentor](https://www.frontendmentor.io/solutions/base-apparel-component-HQ3-noYGcq)
+- Live Site URL: [Github Pages](https://julius-java.github.io/base-apparel-component/)
 
 ## My process
 
